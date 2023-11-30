@@ -1,0 +1,169 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'comic sans ms';
+    background-color: black;
+    
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+img{
+    width: 600px;
+    height: 500px;
+    float: left;
+}
+.logo a {
+    font-size: 35px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #db9d00;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: black;
+    z-index: 1;
+    border-bottom: 1px solid #db9d00;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    color: #db9d00;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 200px;
+    margin-bottom: 700px;
+    color: #db9d00;
+    float: left;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #db9d00;
+}
+
+h2 {
+    color: #db9d00;
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+.tengah {
+    text-align: left;
+    width: 100%;
+    color: #db9d00;
+}
+
+#contact {
+    background: white;
+    padding: 50px 0px 50x 0px;
+    
+}
+
+.footer {
+    width: 200%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+.footer-section {
+    width: 200%;
+    margin: 0 auto;
+    text-align: left;
+    color: #db9d00;
+    background-color: black;
+    
+
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #db9d00;
+    width: 100%;
+    line-height: 50px;
+}
+#copyright {
+    text-align: center;
+    width: 150%;
+    height: 100%;
+    padding: 50 px 0px 50px 0px;
+    margin-top: 50px;
+    color: #db9d00;
+    
+}
+
+.tutor-list {
+    width: 150%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kegiatan {
+    width: 150%;
+    margin: 0 auto;
+}
+
+.kegiatan img {
+    width: 100%;
+}
